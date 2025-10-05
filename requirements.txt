@@ -1,0 +1,13 @@
+ipykernel
+arxiv
+wikipedia
+langchain
+langchain_community
+langchain_core
+langchain_huggingface
+faiss-cpu
+sentence_transformers
+langchain_groq
+groq
+streamlit
+ddgs
