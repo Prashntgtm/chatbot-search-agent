@@ -2,6 +2,7 @@ import streamlit as st
 from langchain_groq import ChatGroq
 from langchain_community.utilities import ArxivAPIWrapper, WikipediaAPIWrapper
 from langchain_community.tools import ArxivQueryRun, WikipediaQueryRun,DuckDuckGoSearchRun
+from langchain_tavily import TavilySearch
 from langchain.agents import initialize_agent,AgentType
 from langchain.callbacks import StreamlitCallbackHandler
 import os
@@ -16,13 +17,22 @@ arx=ArxivQueryRun(api_wrapper=api_wrapper_arvix)
 api_wrapper_wiki=WikipediaAPIWrapper(top_k_results=1, doc_content_chars_max=250)
 wiki=WikipediaQueryRun(api_wrapper=api_wrapper_wiki)
 
-search=DuckDuckGoSearchRun(name="Google-Search")
-
 st.title("Chatbot with Search Tool")
 
 ## Sidebar for settings
 st.sidebar.title("Settings")
 api_key=st.sidebar.text_input("Enter your Groq API Key:",type="password")
+
+search_provider=st.sidebar.selectbox("Search Provider:",["DuckDuckGo","Tavily"],index=0)
+
+tavily_api_key=None
+if search_provider=="Tavily":
+    tavily_api_key=st.sidebar.text_input("Enter your Tavily API Key:",type="password")
+
+if search_provider=="Tavily" and tavily_api_key:
+    search=TavilySearch(max_results=5,tavily_api_key=tavily_api_key)
+else:
+    search=DuckDuckGoSearchRun(name="Google-Search")
 
 if "messages" not in st.session_state:
     st.session_state["messages"]=[
