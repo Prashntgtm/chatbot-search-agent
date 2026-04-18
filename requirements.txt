@@ -11,3 +11,5 @@ langchain_groq
 groq
 streamlit
 ddgs
+tavily-python
+langchain-tavily
